@@ -8,4 +8,10 @@ del /a /s C:\RansomNoteName.txt > C:\Windows\Temp\notes_deleted_C.txt & del /a /
 del /a /s C:\*.extension > C:\Windows\Temp\files_deleted_C.txt & del /a /s D:\*.extension > C:\Windows\Temp\files_deleted_D.txt & del /a /s E:\*.extension > C:\Windows\Temp\files_deleted_E.txt
 
 
+==== Improved method ====
 
+for %%i in (c d e) do del /a /s %%i:\RansomNoteName.txt >> %%i:\Windows\Temp\files_deleted_%%i.txt
+
+or 
+
+for %%i in (c d e) do del /a /s %%i:\*.extension >> %%i:\Windows\Temp\files_deleted_%%i.txt
