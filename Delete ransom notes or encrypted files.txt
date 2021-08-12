@@ -1,3 +1,5 @@
-del /a /s C:\RansomNoteName.txt > C:\Windows\Temp\deleted_C.txt & 
-del /a /s D:\RansomNoteName.txt > C:\Windows\Temp\deleted_D.txt & 
-del /a /s E:\RansomNoteName.txt > C:\Windows\Temp\deleted_E.txt
+del /a /s C:\RansomNoteName.txt > C:\Windows\Temp\deleted_C.txt & del /a /s D:\RansomNoteName.txt > C:\Windows\Temp\deleted_D.txt & del /a /s E:\RansomNoteName.txt > C:\Windows\Temp\deleted_E.txt
+
+
+
+
