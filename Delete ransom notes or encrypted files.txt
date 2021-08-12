@@ -1,5 +1,11 @@
-del /a /s C:\RansomNoteName.txt > C:\Windows\Temp\deleted_C.txt & del /a /s D:\RansomNoteName.txt > C:\Windows\Temp\deleted_D.txt & del /a /s E:\RansomNoteName.txt > C:\Windows\Temp\deleted_E.txt
+==== For deleting ransom notes ===
 
+del /a /s C:\RansomNoteName.txt > C:\Windows\Temp\notes_deleted_C.txt & del /a /s D:\RansomNoteName.txt > C:\Windows\Temp\notes_deleted_D.txt & del /a /s E:\RansomNoteName.txt > C:\Windows\Temp\notes_deleted_E.txt
+
+
+==== For encrypted files ====
+
+del /a /s C:\*.extension > C:\Windows\Temp\files_deleted_C.txt & del /a /s D:\*.extension > C:\Windows\Temp\files_deleted_D.txt & del /a /s E:\*.extension > C:\Windows\Temp\files_deleted_E.txt
 
 
 
